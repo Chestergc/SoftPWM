@@ -6,7 +6,8 @@ def primefactors(x): 	# This is a code for factor checking
 	factorlist=[]		# On small numbers such as this it's
 	loop=2				# Just about enough
 	while loop<=x:
-		if x%loop==0: x/=loop
+		if x%loop==0: 
+			x/=loop
 			factorlist.append(loop)
 		else:
 			loop+=1
@@ -18,8 +19,8 @@ def factors(s):			# The above code doesn't print the
 	for x in xx:		# number of factors the number has
 		z=xx.count(x)
 		if [x,z] not in facindex:
-            facindex.append([x,z])
-    numfac=1
+			facindex.append([x,z])
+	numfac=1
 	for [p,q] in facindex:
 		numfac*=(q+1)
 	return numfac
