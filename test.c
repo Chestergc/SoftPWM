@@ -8,25 +8,13 @@ main(){
   output_b(0x00);
   output_c(0x00);
   output_d(0x00);
+  int timing;
 
   while(1){
-    if (aux == 1000) s = s2;   // changes into hex
-    if (aux == 2000)           // changes into binary, resets aux
-       {
-       s = s1;
-       aux = 0;
-       }
+    timing = 1;
     delay_us(5);
-    t1 ++;
-    if (t1 == 0) s = ~s;      // inverting the signal
-    if (s & 0b00000001) output_high(BUZZER);  // buzzer out
-    else                output_low(BUZZER);   // ????
-    if (t1 == I)              // figure out the end of the duty cicle
-       {
-       s = ~s;
-       I --;
-       aux ++;
-       }
-  }
-
+    output_high(BUZZER);
+    delay_us(timing);
+    output_low(BUZZER);
+    timing++
 }
