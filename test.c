@@ -15,5 +15,7 @@ main(){
     output_high(BUZZER);
     delay_us(timing);
     output_low(BUZZER);
-    timing++
+    if (timing <= 1000) timing++;
+    else timing--;
+  }
 }
