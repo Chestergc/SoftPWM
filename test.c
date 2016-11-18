@@ -8,10 +8,9 @@ main(){
   output_b(0x00);
   output_c(0x00);
   output_d(0x00);
-  int timing;
+  int timing = 1;
 
   while(1){
-    timing = 1;
     delay_us(5);
     output_high(BUZZER);
     delay_us(timing);
