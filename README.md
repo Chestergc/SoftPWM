@@ -6,6 +6,8 @@ So, I don't exactly have a reason to be opening this account, my code is not exa
 
 --The first one is challenge 12, What is the first triangle number with more than 500 divisors?--
 
+--I felt like trying my hand with prime numbers, so here is problem 7, what is the 10001st prime?--
+
 For some reason I really can't decide if I want to keep using sublime or start using atom, I mean, both of them are exactly the same, atom has git integration, and sublime has easy package managing.
 
 Or at least that's how they feel.
