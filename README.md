@@ -8,6 +8,8 @@ So, I don't exactly have a reason to be opening this account, my code is not exa
 
 --I felt like trying my hand with prime numbers, so here is problem 7, what is the 10001st prime?--
 
+--The primes number was fun, trying problem 3 now, what is the largest prime factor of 600851475143?--
+
 For some reason I really can't decide if I want to keep using sublime or start using atom, I mean, both of them are exactly the same, atom has git integration, and sublime has easy package managing.
 
 Or at least that's how they feel.
