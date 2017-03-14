@@ -6,7 +6,7 @@ def primefactors(x): 	# This is a code for factor checking
 	factorlist=[]		# On small numbers such as this it's
 	loop=2				# Just about enough
 	while loop<=x:
-		if x%loop==0: 
+		if x%loop==0:
 			x/=loop
 			factorlist.append(loop)
 		else:
