@@ -9,7 +9,7 @@ def primes(limit): ##Code for the sieve
     for i in range(2, limitn):
         if not_prime[i]:
             continue
-        for f in tange(i*2, limitn, i):
+        for f in range(i*2, limitn, i):
             not_prime[f] = True
 
         primes.append(i)
