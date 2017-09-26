@@ -14,6 +14,8 @@ So, I don't exactly have a reason to be opening this account, my code is not exa
 
 --Problem 5 now, What is the smallest number that can be evenly divisible by all numbers from 1 to 20--
 
+--Problem 14, What number under a million gives the longest collatz sequence?--
+
 For some reason I really can't decide if I want to keep using sublime or start using atom, I mean, both of them are exactly the same, atom has git integration, and sublime has easy package managing.
 
 Or at least that's how they feel.
