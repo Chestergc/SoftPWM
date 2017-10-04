@@ -16,6 +16,8 @@ So, I don't exactly have a reason to be opening this account, my code is not exa
 
 --Problem 14, What number under a million gives the longest collatz sequence?--
 
+--A case peaked my interest, numbers n such that nˆ2 and nˆ4 have the same digital sum.--
+
 For some reason I really can't decide if I want to keep using sublime or start using atom, I mean, both of them are exactly the same, atom has git integration, and sublime has easy package managing.
 
 Or at least that's how they feel.
