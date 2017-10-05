@@ -18,6 +18,8 @@ So, I don't exactly have a reason to be opening this account, my code is not exa
 
 --A case peaked my interest, numbers n such that nˆ2 and nˆ4 have the same digital sum.--
 
+--So, I've decided to write a function for concatenation. It's here somewhere.--
+
 For some reason I really can't decide if I want to keep using sublime or start using atom, I mean, both of them are exactly the same, atom has git integration, and sublime has easy package managing.
 
 Or at least that's how they feel.
