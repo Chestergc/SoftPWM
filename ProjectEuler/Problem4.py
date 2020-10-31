@@ -9,4 +9,4 @@ print(palindrome(1000))
 ## Unfortuntately doesn't scale very well. Should look into it.
 ## The funcion actually means: Return the maximum value of the product 
 ## of two numbers such that the number itself reads the same as it's mirror (hence the [::-1])
-## 9066609
+## 906609
